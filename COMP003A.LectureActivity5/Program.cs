@@ -14,7 +14,7 @@
             Console.WriteLine($"The sum is: {sum}"); //Part C
 
             int mainNumber = 50; //Part D
-
+            
             if (true) //Part E
             {
                 int blockValue = 30;
@@ -31,7 +31,8 @@
         static void DisplayWelcome()
         {
             Console.WriteLine("Welcome to Module 5!"); //Part A
-            /*Console.WriteLine(mainNumber);
+            //Console.WriteLine(mainNumber);
+            /* 
              * The name mainNumber does not exist in the current context
              * Part D error message step 9
              */
