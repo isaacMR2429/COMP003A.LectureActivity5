@@ -12,10 +12,16 @@
 
             int sum = CalculateSum(7, 8);
             Console.WriteLine($"The sum is: {sum}"); //Part C
+
+            int mainNumber = 50; //Part D
         }
         static void DisplayWelcome()
         {
             Console.WriteLine("Welcome to Module 5!"); //Part A
+            /*Console.WriteLine(mainNumber);
+             * The name mainNumber does not exist in the current context
+             * Part D error message
+             */
         }
         static void DisplayUserInfo(string name, int age)
         {
