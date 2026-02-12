@@ -15,18 +15,20 @@
 
             int mainNumber = 50; //Part D
 
-            if (true)
+            if (true) //Part E
             {
                 int blockValue = 30;
                 Console.WriteLine($"Block Value: {blockValue}");
             }
+            // Console.WriteLine(blockValue); // The Error message showed again. Step 11
+
         }
         static void DisplayWelcome()
         {
             Console.WriteLine("Welcome to Module 5!"); //Part A
             /*Console.WriteLine(mainNumber);
              * The name mainNumber does not exist in the current context
-             * Part D error message
+             * Part D error message step 9
              */
         }
         static void DisplayUserInfo(string name, int age)
