@@ -18,10 +18,15 @@
             if (true) //Part E
             {
                 int blockValue = 30;
-                Console.WriteLine($"Block Value: {blockValue}");
+                Console.WriteLine($"Block Value: {blockValue}"); //Step 10
             }
             // Console.WriteLine(blockValue); // The Error message showed again. Step 11
 
+            for (int i = 0; i <3; i++) //Part F
+            {
+                Console.WriteLine($"Loop Counter: {i}"); //Step 12
+            }
+            //Console.WriteLine(i); The Error message showed again. Step 13
         }
         static void DisplayWelcome()
         {
