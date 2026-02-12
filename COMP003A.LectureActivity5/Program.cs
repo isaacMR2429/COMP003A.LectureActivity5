@@ -16,7 +16,7 @@
         }
         static void DisplayUserInfo(string name, int age)
         {
-            Console.WriteLine($"Name: {name}, Age: {age}");  //Part B
+            Console.WriteLine($"Name: {name}, Age: {age}");  //Part B 
         }
 
     }
