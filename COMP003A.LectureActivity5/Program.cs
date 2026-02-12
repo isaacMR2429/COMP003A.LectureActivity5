@@ -14,6 +14,12 @@
             Console.WriteLine($"The sum is: {sum}"); //Part C
 
             int mainNumber = 50; //Part D
+
+            if (true)
+            {
+                int blockValue = 30;
+                Console.WriteLine($"Block Value: {blockValue}");
+            }
         }
         static void DisplayWelcome()
         {
