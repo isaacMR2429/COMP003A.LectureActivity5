@@ -8,7 +8,10 @@
             
             string name = "Alex";             
             int age = 20;                     // Part B
-            DisplayUserInfo(name, age);        
+            DisplayUserInfo(name, age);
+
+            int sum = CalculateSum(7, 8);
+            Console.WriteLine($"The sum is: {sum}"); //Part C
         }
         static void DisplayWelcome()
         {
@@ -17,6 +20,10 @@
         static void DisplayUserInfo(string name, int age)
         {
             Console.WriteLine($"Name: {name}, Age: {age}");  //Part B 
+        }
+        static int CalculateSum(int a, int b)
+        {
+            return a + b;    //Part C
         }
 
     }
