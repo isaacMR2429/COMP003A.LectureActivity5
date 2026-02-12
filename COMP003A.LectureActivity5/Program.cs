@@ -45,5 +45,16 @@
             return a + b;    //Part C
         }
 
+        /* Step G - Reflection
+         * 
+         * Why method variables are not accessible in main?
+         *  Method variables are not accessible in main because they only exist inside that method scope, so Main can't use them.
+         *
+         *Why block variables do not exist outside {}
+         *  Block variables do not exist outside {}, because a variable inside {} is limited to that block.
+         *
+         *Why scope improves program safety?
+         *  Scope improves the program safety by keeping variavles contained so other parts of the program can't changed them
+         */
     }
 }
